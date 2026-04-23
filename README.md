@@ -7,4 +7,5 @@ This collection serves as an online repository for the TORA framework introduced
  The project begins with empirical data collection, involving daily data retrieval from selected subreddits that align with your project goals and interests.
 
 Due to content moderation practices on social media platforms and API limitations imposed by Reddit, each request allows you to collect up to 500 posts, depending on the filtering criteria applied.
-  
+
+[Data Collection Script](https://github.com/kanlunwang/project/blob/main/scripts/data_collection.py)
