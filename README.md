@@ -3,5 +3,5 @@ This collection serves as an online repository for the TORA framework introduced
 
 The research project involves three major stages of implementation.
 
-Stage 1: Emperical Data Collection
+## Stage 1: Empirical Data Collection
   
