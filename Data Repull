@@ -1,0 +1,145 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "S7nz_vH-pL1p"
+      },
+      "outputs": [],
+      "source": [
+        "# Install all libs as needed\n",
+        "!pip install praw pandas openpyxl datetime\n",
+        "import pandas as pd\n",
+        "import os\n",
+        "import praw\n",
+        "import datetime\n",
+        "import time\n",
+        "import csv\n",
+        "from google.colab import drive"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "QBStripApO0q"
+      },
+      "outputs": [],
+      "source": [
+        "# API Info\n",
+        "reddit = praw.Reddit(\n",
+        "    client_id='Your client_id',\n",
+        "    client_secret='Your client_secret',\n",
+        "    user_agent='Your user_agent via Reddit',\n",
+        "    username='Your Reddit Username',\n",
+        "    password='Your Reddit password')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "7Z2QE-8J4H-c"
+      },
+      "outputs": [],
+      "source": [
+        "# Please ensure that all POST IDs are retrieved from the daily data collection repository.\n",
+        "df = pd.read_csv('The Path/Folder where your daily data collection stores')\n",
+        "unique_post_ids = list(df['Post ID'].unique())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Create Your Own Folder to Save Repull Metadata\n",
+        "data_folder = 'The Path/Folder where you save the repull data'"
+      ],
+      "metadata": {
+        "id": "gM_xPret5ivI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "F9bXgoMxgWhR"
+      },
+      "outputs": [],
+      "source": [
+        "# Actual Data Repull Starts Here\n",
+        "def get_date(created_utc, timezone_offset=-5):\n",
+        "    \"\"\"Converts UTC timestamp to datetime object and applies timezone offset.\"\"\"\n",
+        "    utc_datetime = datetime.datetime.fromtimestamp(created_utc)\n",
+        "    est_datetime = utc_datetime + datetime.timedelta(hours=timezone_offset)\n",
+        "    return est_datetime\n",
+        "\n",
+        "def get_est_offset():\n",
+        "    \"\"\"Determines the correct EST/EDT offset.\"\"\"\n",
+        "    now = datetime.datetime.now()\n",
+        "    us_dst_start = datetime.datetime(now.year, 3, 8, 2) + datetime.timedelta(days=(6 - now.weekday()) % 7)\n",
+        "    us_dst_end = datetime.datetime(now.year, 11, 1, 2) + datetime.timedelta(days=(6 - now.weekday()) % 7)\n",
+        "\n",
+        "    if us_dst_start <= now < us_dst_end:\n",
+        "        return -4  # EDT\n",
+        "    else:\n",
+        "        return -5  # EST\n",
+        "\n",
+        "all_post_data = []\n",
+        "\n",
+        "for post_id in unique_post_ids:\n",
+        "    print(unique_post_ids.index(post_id))\n",
+        "    try:\n",
+        "        post = reddit.submission(id=post_id)\n",
+        "        est_offset = get_est_offset()\n",
+        "        post_data = {\n",
+        "                    \"Subreddit\": post.subreddit.display_name,\n",
+        "                    \"Post ID\": post.id,\n",
+        "                    \"Post Title\": post.title,\n",
+        "                    \"Post Text\": post.selftext,\n",
+        "                    \"Post Author\": post.author.name if post.author else None,\n",
+        "                    \"Post Created\": get_date(post.created_utc, est_offset)\n",
+        "        }\n",
+        "        all_post_data.append(post_data)\n",
+        "        print(f\"Retrieved data for post ID: {post_id}\")\n",
+        "        #time.sleep(1) #avoid rate limiting.\n",
+        "\n",
+        "    except Exception as e:\n",
+        "        print(f\"Error retrieving data for post ID {post_id}: {e}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "uxzMSYi_5pbC"
+      },
+      "outputs": [],
+      "source": [
+        "# Save all post data to a CSV file\n",
+        "with open(\"Give Unique File Name Here\", 'w', newline='', encoding='utf-8') as csvfile:\n",
+        "    fieldnames = all_post_data[0].keys() if all_post_data else []\n",
+        "    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)\n",
+        "    writer.writeheader()\n",
+        "    for row in all_post_data:\n",
+        "        writer.writerow(row)"
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
