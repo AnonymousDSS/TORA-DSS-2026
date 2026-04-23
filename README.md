@@ -8,4 +8,4 @@ This collection serves as an online repository for the TORA framework introduced
 
 Due to content moderation practices on social media platforms and API limitations imposed by Reddit, each request allows you to collect up to 500 posts, depending on the filtering criteria applied.
 
-[Data Collection - Daily Post Collection]([https://github.com/kanlunwang/project/blob/main/scripts/data_collection.py](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb))
+[Data Collection - Daily Post Collection]([Data Collection - Daily Post Collection.ipynb]))
