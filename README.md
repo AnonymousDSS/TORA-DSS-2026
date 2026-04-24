@@ -171,9 +171,9 @@ The following posts were moderated in accordance with the rule above:
 
 Rule: “Spam and Self-Promotion: Prevent excessive advertisements, link dumping, or repetitive promotional content that disrupts community interactions.”
 The following posts were moderated in accordance with the rule above:
-(1) Usually it’s a place or a memorial for ex-F1-driver, like the most saddest public square I have ever seen (The Square of Mika Häkkinen https://fi.wikipedia.org/wiki/Mika_H%C3%A4kkisen_aukio)
-(2) Here is a link to their page in Metalarchives:https://www.metal-archives.com/bands/Formula_1/77037https://www.metal-archives.com/bands/Formula_1/77037
-(3) Inspo photos: https://www.thereformation.com/products/delphi-silk-dress/1310524IVO.html?glCountry=CA&amp;glCurrency=CAD&amp;lang=en_CA&amp;gclid=Cj0KCQjwpeaYBhDXARIsAEzItbHOkj-NYet-X9okRjPinbiA9AyQ5wJuJV5BxfvQDOvn6xYxrsJ4lugaAukqEALw_wcB (sadly way too pricy) https://www.joom.com/en/products/5fe553ca8392cf010626119b (like this style but won’t ship in time)
+(1) Usually it’s a place or a memorial for ex-F1-driver, like the most saddest public square I have ever seen (The Square of Mika Häkkinen `https://fi.wikipedia.org/wiki/Mika_H%C3%A4kkisen_aukio`)
+(2) Here is a link to their page in Metalarchives:`https://www.metal-archives.com/bands/Formula_1/77037https://www.metal-archives.com/bands/Formula_1/77037`
+(3) Inspo photos: `https://www.thereformation.com/products/delphi-silk-dress/1310524IVO.html?glCountry=CA&amp;glCurrency=CAD&amp;lang=en_CA&amp;gclid=Cj0KCQjwpeaYBhDXARIsAEzItbHOkj-NYet-X9okRjPinbiA9AyQ5wJuJV5BxfvQDOvn6xYxrsJ4lugaAukqEALw_wcB` (sadly way too pricy) `https://www.joom.com/en/products/5fe553ca8392cf010626119b` (like this style but won’t ship in time)
 
 Rule: “Be Specific: Clearly state the topic or comment you're referring to. If you're commenting on someone's post, mention the exact post ID and comment number to reference it correctly.”
 The following posts were moderated in accordance with the rule above:
