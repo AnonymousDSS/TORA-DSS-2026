@@ -231,5 +231,7 @@ The following posts were moderated in accordance with the rule above:
   </tr>
 </table>
 
+<div align="left">
+  
 ## Reference: 
 TBD
