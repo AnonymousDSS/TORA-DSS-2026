@@ -28,7 +28,7 @@ To enhance ecological validity, a second round of data collection should be cond
 - Unchanged title and body indicate that the post remained available on the platform and was therefore treated as legitimate.
 
 📥 
-To begin the data repull from the posts that were collected in daily data collection, please refer to the code provided here: 
+To begin the data repull from the posts that were collected in the daily data collection (i.e., Step 1), please refer to the code provided here: 
 
 [Data Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
 
