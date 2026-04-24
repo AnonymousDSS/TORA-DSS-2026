@@ -15,7 +15,6 @@ This collection serves as an online repository for the TORA framework introduced
 
 📥 
 To begin the daily data collection from selected subreddits, please refer to the code provided here: 
-
 [Daily Data Collection](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Data%20Collection.ipynb)
 
 ### 🚨 Step 2: Data Repull (Moderation Decision Verification)
@@ -29,7 +28,6 @@ To enhance ecological validity, a second round of data collection should be cond
 
 📥 
 To begin the data repull from the posts that were collected in the daily data collection (i.e., Step 1), please refer to the code provided here: 
-
 [Data Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Data%20Repull.ipynb)
 
 <p align="center">
@@ -46,7 +44,8 @@ To begin the data repull from the posts that were collected in the daily data co
 | `Post Author` | The Reddit username of the creator. |
 | `Post Created` | Timestamp of publication (UTC / Unix). ||
 
+<div align="left">
+  
+### 🚨 Step 3: Communit Rule Collection
 
-[Data Collection - Post Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
 
-[Data Collection - Rule Scraping](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
