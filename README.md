@@ -1,12 +1,22 @@
 # TORA-DSS-2026
-This collection serves as an online repository for the TORA framework introduced in the Decision Support Systems paper [Ref], including metadata, code used for empirical data collection and community rule collection, and prompt templates used with large language models.
+This collection serves as an online repository for the TORA framework introduced in the Decision Support Systems paper [Ref], including the framework, metadata, data-collection code, community-rule collection code, and prompt templates used with large language models.
 
-<mark>The research project consists of THREE primary stages of implementation.</mark>
+## Empirical Data Collection
 
-## Stage 1: Empirical Data Collection
-The project begins with empirical data collection, involving daily data retrieval from selected subreddits
+## 🚨 Step 1: 
 
-Due to content moderation practices on social media platforms and API limitations imposed by Reddit, each request allows you to collect up to 500 posts, depending on the filtering criteria applied.
+### Prerequisites
+
+- Reddit Developer Access: Create a [Reddit developer account](https://developers.reddit.com/) to obtain the credentials required for API-based data collection. If necessary, submit a request for research access to the Reddit dataset, which is subject to Reddit’s review and approval.
+  
+- Subreddit Selection: Identify the subreddits to be included in the data collection process based on the objectives of your study.
+  
+- Collection Configuration: Given Reddit API constraints and platform-specific moderation practices, each request can retrieve up to 1,000 items. Configure the retrieval process using an appropriate sorting option (e.g., hot, new, or top) to minimize overlap across daily collection intervals.
+
+## 📥 Daily Data Collection
+To begin the daily retrieval of posts and associated metadata from selected subreddits, please refer to the code provided here: 
+
+[Daily Data Collection](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
 
 | Variable Name | Definition |
 |--------------|------------|
@@ -17,7 +27,7 @@ Due to content moderation practices on social media platforms and API limitation
 | Post Author | The Reddit username of the person who created the post. |
 | Post Created | The timestamp indicating when the post was published on Reddit, usually stored in UTC format or Unix timestamp. |
 
-[Data Collection - Daily Post Collection](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
+[Daily Post Collection](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
 
 [Data Collection - Post Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
 
