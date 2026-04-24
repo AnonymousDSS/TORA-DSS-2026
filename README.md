@@ -22,7 +22,7 @@ To enhance ecological validity, a second round of data collection should be cond
 
 - [deleted] in the title or body indicates author-initiated deletion.
 
-- 🎯 [removed] in the title or body indicates moderator- or platform-initiated removal.
+- [removed] in the title or body indicates moderator- or platform-initiated removal. 🎯
 
 - Unchanged title and body indicate that the post remained available on the platform and was therefore treated as legitimate.
 
@@ -46,6 +46,24 @@ To begin the data repull from the posts that were collected in the daily data co
 
 <div align="left">
   
-### 🚨 Step 3: Communit Rule Collection
+### 🚨 Step 3: Community Rule Collection
 
+Community rules differ across communities, domains, and platforms. In Reddit’s community-based governance structure, each subreddit defines its own rules and regulations to guide user behavior and content standards. Based on the subreddit selection specified in Prerequisites (Item 2), you can scrape the most current rules for each selected subreddit.
+
+📥 
+To begin the rule scraping, please refer to the code provided here: [Rule Scraping](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Rule%20Scraping.ipynb)
+
+<p align="center">
+  <b>📑 Metadata Collected in Step 3 </b>
+</p>
+<div align="center">
+  
+| Variable Name | Definition |
+|--------------|------------|
+| `Subreddit` | The name of a Reddit community (e.g., r/reddit). |
+| `Subreddit Description` | Public description of the subreddit and its intended community focus. |
+| `Rule Header` | Short title of the community rule. |
+| `Rule Description` | Full textual description of the community rule. |
+| `Time Created` | Timestamp of rule publication (UTC / Unix). |
+| `Rule Violation Reason` | Standardized reason associated with rule violation. |
 
