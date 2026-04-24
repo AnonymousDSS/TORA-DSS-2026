@@ -108,7 +108,7 @@ To begin model implementation, please refer to the code provided here: [TORA Fra
 
 
 <p align="center">
-  <b>✍️  Prompt Template for GPT-4o & GPT 5 </b>
+  <b>✍️ A Prompt Template for GPT-4o & GPT 5 </b>
 </p>
 <div align="center">
 <table>
@@ -136,7 +136,7 @@ To begin model implementation, please refer to the code provided here: [TORA Fra
 </table>
 
 <p align="center">
-  <b>✍️  Prompt Template for GPT-4o Few-shot & GPT 5 Few-shot </b>
+  <b>✍️ A Prompt Template for GPT-4o Few-shot & GPT 5 Few-shot </b>
 </p>
 <div align="center">
 
