@@ -16,7 +16,7 @@ This collection serves as an online repository for the TORA framework introduced
 📥 
 To begin the daily data collection from selected subreddits, please refer to the code provided here: 
 
-[Daily Data Collection]((https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Data%20Collection.ipynb)
+[Daily Data Collection](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Data%20Collection.ipynb)
 
 ### 🚨 Step 2: Data Repull (Moderation Decision Verification)
 To enhance ecological validity, a second round of data collection should be conducted after a suitable time interval to confirm the moderation status of previously collected posts. Three cases are considered during this verification process:
