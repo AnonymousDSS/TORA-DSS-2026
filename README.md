@@ -19,7 +19,13 @@ To begin the daily data collection from selected subreddits, please refer to the
 [Daily Data Collection](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
 
 ### 🚨 Step 2: Data Repull (Moderation Decision Verification)
-To preserve ecological validity in content moderation decisions, you need to conduct a second round of data collection after a certain period of time to confirm the moderation status of the collected posts.
+To enhance ecological validity, a second round of data collection should be conducted after a suitable time interval to confirm the moderation status of previously collected posts. Three cases are considered during this verification process:
+
+- [deleted] in the title or body indicates author-initiated deletion.
+
+- [removed] in the title or body indicates moderator- or platform-initiated removal.
+
+- Unchanged title and body indicate that the post remained available on the platform and was therefore treated as legitimate.
 
 📥 
 To begin the data repull from the posts that were collected in daily data collection, please refer to the code provided here: 
