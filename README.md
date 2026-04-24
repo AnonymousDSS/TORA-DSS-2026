@@ -104,3 +104,33 @@ To begin model implementation, please refer to the code provided here: [TORA Fra
   </tr>
 </table>
 
+
+
+
+<p align="center">
+  <b>✍️  Prompt Template for GPT-4o & GPT 5 </b>
+</p>
+<div align="center">
+<table>
+  <tr>
+    <th colspan="2">LLM Input</th>
+  </tr>
+  <tr>
+    <th>Task Instruction</th>
+    <td>
+      Content moderation is a typical intervention strategy for regulating online communities on social media platforms, to ensure that social media content complies with the platforms' policies and community standards. Given a user's post and a list of rule topics: <strong><em>[A list of (rule) topics]</em></strong>, determine whether the post should be moderated by answering 'Yes' or 'No'.
+    </td>
+  </tr>
+  <tr>
+    <th>Input Query</th>
+    <td>
+      Should the following social media post be moderated? <strong><em>[A social media post]</em></strong> Answer:
+    </td>
+  </tr>
+  <tr>
+    <th>LLM Output</th>
+    <td>
+      <strong><em>'Yes' or 'No'</em></strong>
+    </td>
+  </tr>
+</table>
