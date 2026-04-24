@@ -33,7 +33,7 @@ To begin the data repull from the posts that were collected in the daily data co
 [Data Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Data%20Repull.ipynb)
 
 <p align="center">
-  <b>📑 Metadata from Steps 1 & 2</b>
+  <b>📑 Metadata Collected in Steps 1 and 2 </b>
 </p>
 
 | Variable Name | Definition |
