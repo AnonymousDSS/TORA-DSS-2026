@@ -35,15 +35,16 @@ To begin the data repull from the posts that were collected in the daily data co
 <p align="center">
   <b>📑 Metadata Collected in Steps 1 and 2 </b>
 </p>
-
+<div align="center">
+  
 | Variable Name | Definition |
-|--------------|------------|
-| Subreddit | The name of the Reddit community where the post was published (e.g., r/reddit). It represents the topic or category of the post. |
-| Post ID | A unique identifier assigned by Reddit to each post. It is used to distinguish and retrieve individual posts from the API or dataset. |
-| Post Title | The headline of the Reddit post. It summarizes the main idea or topic of the post and is the first text users see. |
-| Post Text | The main body content of the post. This is optional and may be empty if the post is a link-only or image-based submission. |
-| Post Author | The Reddit username of the person who created the post. |
-| Post Created | The timestamp indicating when the post was published on Reddit, usually stored in UTC format or Unix timestamp. |
+|----------------------------|------------|
+| `Subreddit` | The name of the Reddit community where the post was published (e.g., r/reddit). |
+| `Post ID` | A unique identifier assigned by Reddit to each post. |
+| `Post Title` | The headline of the Reddit post. |
+| `Post Text` | The main body content of the post. |
+| `Post Author` | The Reddit username of the creator. |
+| `Post Created` | Timestamp of publication (UTC / Unix). ||
 
 
 [Data Collection - Post Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
