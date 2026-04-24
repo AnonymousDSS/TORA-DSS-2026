@@ -71,9 +71,9 @@ To begin the rule scraping, please refer to the code provided here: [Rule Scrapi
   
 ## TORA Framework
 
-The TORA framework comprises four core components: post representation, rule representation, topic-based rule affinity measurement, and classification. Additional details on the framework architecture are provided in the Decision Support Systems paper [Ref].
+The TORA framework comprises four core components: post representation, rule representation, topic-based rule affinity measurement, and classification. Additional details on the framework architecture are provided in the Decision Support Systems paper [Ref]. 
 
 ⚙️ 
-To begin model implementation, please refer to the code provided here:
+To begin model implementation, please refer to the code provided here: [TORA Framework](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/TORA_Framework.ipynb)
 
 
