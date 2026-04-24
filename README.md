@@ -30,7 +30,7 @@ To enhance ecological validity, a second round of data collection should be cond
 📥 
 To begin the data repull from the posts that were collected in the daily data collection (i.e., Step 1), please refer to the code provided here: 
 
-[Data Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
+[Data Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Data%20Repull.ipynb)
 
 <p align="center">
   <b>📑 Metadata from Steps 1 & 2</b>
