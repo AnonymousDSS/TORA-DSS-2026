@@ -23,7 +23,7 @@ To enhance ecological validity, a second round of data collection should be cond
 
 - [deleted] in the title or body indicates author-initiated deletion.
 
-- [removed] in the title or body indicates moderator- or platform-initiated removal.
+- 🎯 [removed] in the title or body indicates moderator- or platform-initiated removal.
 
 - Unchanged title and body indicate that the post remained available on the platform and was therefore treated as legitimate.
 
