@@ -69,11 +69,38 @@ To begin the rule scraping, please refer to the code provided here: [Rule Scrapi
 
 <div align="left">
   
-## TORA Framework
+## 🔬TORA Framework
 
 The TORA framework comprises four core components: post representation, rule representation, topic-based rule affinity measurement, and classification. Additional details on the framework architecture are provided in the Decision Support Systems paper [Ref]. 
 
 ⚙️ 
 To begin model implementation, please refer to the code provided here: [TORA Framework](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/TORA_Framework.ipynb)
 
+## Others
+<p align="center">
+  <b>✍️ A Prompt Template for Topic Generation </b>
+</p>
+<div align="center">
+
+<table>
+  <tr>
+    <th colspan="2">LLM Input</th>
+  </tr>
+  <tr>
+    <th>Task Instruction</th>
+    <td>
+      Given a document containing a collection of community rules, identify the <strong><em>n</em></strong> most prominent topics. The topics should be concise, capturing the core subject matter of the text. Ensure that the topics are distinct from each other.
+    </td>
+  </tr>
+  <tr>
+    <th>Input Query</th>
+    <td>
+      Here is the document of rules: <strong><em>[Community rules]</em></strong>, please list ten most prominent topics for it. Answer:
+    </td>
+  </tr>
+  <tr>
+    <th>LLM Output</th>
+    <td><strong><em>[A list of topics]</em></strong></td>
+  </tr>
+</table>
 
