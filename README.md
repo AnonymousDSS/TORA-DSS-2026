@@ -3,9 +3,9 @@ This collection serves as an online repository for the TORA framework introduced
 
 ## Empirical Data Collection
 
-## 🚨 Step 1: 
+### 🚨 Step 1: Daily Data Collection
 
-### Prerequisites
+#### Prerequisites
 
 - Reddit Developer Access: Create a [Reddit developer account](https://developers.reddit.com/) to obtain the credentials required for API-based data collection. If necessary, submit a request for research access to the Reddit dataset, which is subject to Reddit’s review and approval.
   
@@ -13,10 +13,18 @@ This collection serves as an online repository for the TORA framework introduced
   
 - Collection Configuration: Given Reddit API constraints and platform-specific moderation practices, each request can retrieve up to 1,000 items. Configure the retrieval process using an appropriate sorting option (e.g., hot, new, or top) to minimize overlap across daily collection intervals.
 
-## 📥 Daily Data Collection
-To begin the daily retrieval of posts and associated metadata from selected subreddits, please refer to the code provided here: 
+📥 
+To begin the daily data collection from selected subreddits, please refer to the code provided here: 
 
 [Daily Data Collection](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
+
+### 🚨 Step 2: Data Repull (Moderation Decision Verification)
+To preserve ecological validity in content moderation decisions, you need to conduct a second round of data collection after a certain period of time to confirm the moderation status of the collected posts.
+
+📥 
+To begin the data repull from the posts that were collected in daily data collection, please refer to the code provided here: 
+
+[Data Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
 
 | Variable Name | Definition |
 |--------------|------------|
@@ -27,7 +35,6 @@ To begin the daily retrieval of posts and associated metadata from selected subr
 | Post Author | The Reddit username of the person who created the post. |
 | Post Created | The timestamp indicating when the post was published on Reddit, usually stored in UTC format or Unix timestamp. |
 
-[Daily Post Collection](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
 
 [Data Collection - Post Repull](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Post%20Collection.ipynb)
 
