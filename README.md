@@ -16,13 +16,7 @@ To begin the daily data collection from selected subreddits, please refer to the
 [Daily Data Collection](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/Data%20Collection%20-%20Daily%20Data%20Collection.ipynb)
 
 ### 🚨 Step 2: Data Repull (Moderation Decision Verification)
-To enhance ecological validity, a second round of data collection should be conducted after a suitable time interval to confirm the moderation status of previously collected posts. Three cases are considered during this verification process:
-
-- [deleted] in the title and/or body indicates author-initiated deletion.
-
-- [removed] in the title and/or body indicates moderator- or platform-initiated removal. 🎯
-
-- Unchanged title and body indicate that the post remained available on the platform and was therefore treated as legitimate.
+To enhance ecological validity, a second round of data collection should be conducted after a suitable time interval to confirm the moderation status of previously collected posts. 
 
 📥 
 To begin the data repull from the posts that were collected in the daily data collection (i.e., Step 1), please refer to the code provided here: 
@@ -132,20 +126,21 @@ To begin model implementation, please refer to the code provided here: [TORA Fra
     <td>
 <pre>
 Sample posts moderated under topic-based rules are shown below:
-
-Rule: “Stay on Topic”
+<br>
+Rule 1: “Rule Text”
 The following posts were moderated in accordance with the rule above:
 (1) Illegitimate Post Example 1.
 (2) Illegitimate Post Example 2.
 (3) Illegitimate Post Example 3.
-
-Rule: “Be Polite and Respectful”
+<br>
+Rule 2: “Rule Text”
 The following posts were moderated in accordance with the rule above:
 (1) Illegitimate Post Example 1.
 (2) Illegitimate Post Example 2.
 (3) Illegitimate Post Example 3.
+<br>
+.....
 
-......
 </pre>
     </td>
   </tr>
