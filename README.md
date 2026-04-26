@@ -7,11 +7,9 @@ This collection serves as an online repository for the TORA framework introduced
 
 #### Prerequisites
 
-- Reddit Developer Access: Create a [Reddit developer account](https://developers.reddit.com/) to obtain the credentials required for API-based data collection. If necessary, submit a request for research access to the Reddit dataset, which is subject to Reddit’s review and approval.
+- Reddit Developer Access: Create a [Reddit developer account](https://developers.reddit.com/) to obtain the credentials required for API-based data collection. 
   
-- Subreddit Selection: Identify the subreddits to be included in the data collection process based on the objectives of your study.
-  
-- Collection Configuration: Given Reddit API constraints and platform-specific moderation practices, each request can retrieve up to 1,000 items. Configure the retrieval process using an appropriate sorting option (e.g., hot, new, or top) to minimize overlap across daily collection intervals.
+- Subreddit Selection: Identify a list of subreddits to be included in the data collection process.
 
 📥 
 To begin the daily data collection from selected subreddits, please refer to the code provided here: 
@@ -135,13 +133,13 @@ To begin model implementation, please refer to the code provided here: [TORA Fra
 <pre>
 Sample posts moderated under topic-based rules are shown below:
 
-Rule: “Stay on Topic: Keep comments relevant to the subreddit and avoid off-topic posts.”
+Rule: “Stay on Topic”
 The following posts were moderated in accordance with the rule above:
 (1) Illegitimate Post Example 1.
 (2) Illegitimate Post Example 2.
 (3) Illegitimate Post Example 3.
 
-Rule: “Be Polite and Respectful: Use respectful language and avoid personal attacks. Treat others with kindness and respect.”
+Rule: “Be Polite and Respectful”
 The following posts were moderated in accordance with the rule above:
 (1) Illegitimate Post Example 1.
 (2) Illegitimate Post Example 2.
