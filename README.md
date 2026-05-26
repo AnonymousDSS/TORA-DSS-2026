@@ -47,7 +47,7 @@ The TORA framework comprises four core components: post representation, topic-ba
 ⚙️ 
 To begin model implementation, please refer to the code provided here: [TORA Framework](https://github.com/AnonymousDSS/TORA-DSS-2026/blob/main/TORA_Framework.ipynb)
 
-## Others
+## Prompt Templates & LLM Parameter Configurations
 <p align="center">
   <b>✍️ A Prompt Template for Topic Generation </b>
 </p>
