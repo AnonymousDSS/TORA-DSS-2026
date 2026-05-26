@@ -141,6 +141,8 @@ The following posts were moderated in accordance with the rule above:
 <br>
 .....
 
+
+  
 </pre>
     </td>
   </tr>
@@ -155,6 +157,56 @@ The following posts were moderated in accordance with the rule above:
     <td><strong><em>'Yes' or 'No'</em></strong></td>
   </tr>
 </table>
+
+
+<p align="center">
+  <b>📊 LLM Parameter Configurations </b>
+</p>
+<div align="center">
+<table>
+  <tr>
+    <th align="left">Model Version</th>
+    <th align="center">DeepSeek-R1</th>
+    <th align="center">GPT-4o</th>
+    <th align="center">GPT-5</th>
+  </tr>
+  <tr>
+    <th align="left">Prompt Structure</th>
+    <td colspan="3" align="center">Alpaca template</td>
+  </tr>
+  <tr>
+    <th align="left">Truncation Strategy</th>
+    <td align="center">64K</td>
+    <td align="center">128K</td>
+    <td align="center">400K</td>
+  </tr>
+  <tr>
+    <th align="left">Temperature</th>
+    <td align="center">1.0</td>
+    <td align="center">1.0</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <th align="left">top_p</th>
+    <td align="center">1.0</td>
+    <td align="center">1.0</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <th align="left">max_tokens</th>
+    <td align="center">4,096</td>
+    <td align="center">1,024</td>
+    <td align="center">1,024</td>
+  </tr>
+  <tr>
+    <th align="left">Number of runs</th>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+  </tr>
+</table>
+
+
 
 <div align="left">
   
