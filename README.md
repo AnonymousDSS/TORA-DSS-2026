@@ -1,3 +1,5 @@
+<img width="468" height="26" alt="image" src="https://github.com/user-attachments/assets/be1e8f5a-2e3b-4528-a8f5-699c728c3df9" />
+<img width="468" height="26" alt="image" src="https://github.com/user-attachments/assets/e2fd4484-7ecb-445d-a60b-806b6de55926" />
 # TORA-DSS-2026
 This collection serves as an online repository for the TORA framework introduced in the Decision Support Systems paper [Ref], including the framework, metadata, data-collection code, and prompt templates used with large language models.
 
@@ -125,24 +127,22 @@ To begin model implementation, please refer to the code provided here: [TORA Fra
     <th>Demonstrations</th>
     <td>
 <pre>
-Sample posts moderated under topic-based rules are shown below:
+Sample posts moderated under rule topics are shown below:
 <br>
-Rule 1: “Rule Text”
-The following posts were moderated in accordance with the rule above:
-(1) Illegitimate Post Example 1.
-(2) Illegitimate Post Example 2.
-(3) Illegitimate Post Example 3.
-<br>
-Rule 2: “Rule Text”
-The following posts were moderated in accordance with the rule above:
-(1) Illegitimate Post Example 1.
-(2) Illegitimate Post Example 2.
-(3) Illegitimate Post Example 3.
+Rule 1: “Stay on Topic: Keep comments relevant to the subreddit and avoid off-topic posts.”
+The following posts were moderated in accordance with the rule topic above: 
+(1) Moderated Post 1-1.
+(2) Moderated Post 1-2.
+(3) Moderated Post 1-3.
 <br>
 .....
-
-
-  
+<br>
+Rule 10: “Piracy and Illegal Content: Avoid discussions or links related to piracy, illegal downloads, or content that violates terms of service.”
+The following posts were moderated in accordance with the rule topic above: 
+(1) Moderated Post 10-1.
+(2) Moderated Post 10-2.
+(3) Moderated Post 10-3.
+ 
 </pre>
     </td>
   </tr>
