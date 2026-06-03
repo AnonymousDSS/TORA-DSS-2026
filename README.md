@@ -1,5 +1,3 @@
-<img width="468" height="26" alt="image" src="https://github.com/user-attachments/assets/be1e8f5a-2e3b-4528-a8f5-699c728c3df9" />
-<img width="468" height="26" alt="image" src="https://github.com/user-attachments/assets/e2fd4484-7ecb-445d-a60b-806b6de55926" />
 # TORA-DSS-2026
 This collection serves as an online repository for the TORA framework introduced in the Decision Support Systems paper [Ref], including the framework, metadata, data-collection code, and prompt templates used with large language models.
 
@@ -142,7 +140,7 @@ The following posts were moderated in accordance with the rule topic above:
 (1) Moderated Post 10-1.
 (2) Moderated Post 10-2.
 (3) Moderated Post 10-3.
- 
+
 </pre>
     </td>
   </tr>
